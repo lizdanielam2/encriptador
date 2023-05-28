@@ -22,19 +22,25 @@
                     </svg>
                 </div>
                 <div class="text">
-                    <textarea name="text-in" id="text-in" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+                    <textarea name="text-in" id="text-in" cols="30" rows="10"
+                        placeholder="Ingrese texto aqui"></textarea>
                 </div>
                 <span class="span">Solo letras mayusculas y minusculas</span>
                 <div class="btn-group">
-                    <button class="btn btn-1">Encriptar</button>
-                    <button class="btn btn-2">Desencriptar</button>
+                    <button class="btn btn-1" id="btn_encriptar">Encriptar</button>
+                    <button class="btn btn-2" id="btn_desencriptar">Desencriptar</button>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="card">2</div>
+            <div class="card">
+                <p id="text-out">Texto de salida ....</p>
+                <button class="btn btn-2" id="btn_copiar">Copiar</button>
+            </div>
         </div>
     </div>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
